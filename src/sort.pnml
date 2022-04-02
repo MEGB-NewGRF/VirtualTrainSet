@@ -2,8 +2,9 @@
 정렬
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
-    AGV_Cool,                  //1015
+    AGV_Cool,                  //1014
+    BB15000,                   //1015
 
-    VTS_1F_Passenger_Car,      //1013
-    VTS_2F_Passenger_Car       //1014
+    VTS_1F_Passenger_Car,      //1012
+    VTS_2F_Passenger_Car       //1013
     ]);

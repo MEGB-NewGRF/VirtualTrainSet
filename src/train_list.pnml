@@ -3,6 +3,7 @@
 
 //locomotive / Virual_train
 #include "locomotive/AGV_Cool/AGV_Cool.pnml"
+#include "locomotive/BB15000/BB15000.pnml"
 
 // Sorting
 #include "sort.pnml"
