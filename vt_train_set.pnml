@@ -8,7 +8,7 @@
  NewGRF 기본 정보
 ------------------------------------------------------------------------------*/
 grf {
-	grfid :                            "KTSP";
+	grfid :                            "VTTS";
 	name :                             string(STR_GRF_NAME_WITH_VER);
 	desc :                             string(STR_GRF_DESC);
 	url :                              string(STR_GRF_URL);

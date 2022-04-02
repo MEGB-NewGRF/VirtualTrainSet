@@ -2,6 +2,6 @@
 
 
 # GRF name and description
-STR_GRF_NAME_WITH_VER                            :Korean Train Set+ v{VERSION}
-STR_GRF_DESC                                     :Korean Train Set+
+STR_GRF_NAME_WITH_VER                            :Virtual Train Set v{VERSION}
+STR_GRF_DESC                                     :Virtual Train Set
 STR_GRF_URL                                      :https://github.com/KoreanGRF/KoreanEmptySet
