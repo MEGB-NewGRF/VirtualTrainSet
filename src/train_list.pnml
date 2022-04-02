@@ -1,0 +1,8 @@
+//wagon
+#include "wagon/passenger_wagon/passenger_wagon.pnml"
+
+//locomotive / Virual_train
+#include "locomotive/AGV_Cool/AGV_Cool.pnml"
+
+// Sorting
+#include "sort.pnml"

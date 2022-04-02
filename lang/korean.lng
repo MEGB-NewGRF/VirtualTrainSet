@@ -2,6 +2,30 @@
 ##gender m f
 
 # GRF name and description
-STR_GRF_NAME_WITH_VER                            :가상 열차 세트 v{VERSION}
-STR_GRF_DESC                                     :가상 열차 세트 입니다
-STR_GRF_URL                                      :https://github.com/KoreanGRF/KoreanEmptySet
+STR_GRF_NAME_WITH_VER                               :가상 열차 세트 {VERSION}
+STR_GRF_DESC                                        :가상 열차 세트 입니다
+STR_GRF_URL                                         :https://github.com/KoreanGRF/KoreanEmptySet
+
+# locomotive's name
+STR_AGV_Cool_NAME                                   :[VTS] AGV Cool
+
+# wagon's name
+STR_VTS_1F_PASS_NAME                                :[VTS] 1층 공통 객차
+STR_VTS_2F_PASS_NAME                                :[VTS] 2층 공통 객차
+
+# Parameters
+STR_PARAM_High_SPEED_Train_430_NAME                 :고속열차 속도변수 (430km/h 열차속도조절)
+STR_PARAM_High_SPEED_Train_430_DESC                 :고속열차의 속도를 조정합니다. (기본:430km/h)
+
+# Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
+STR_REFIT_ADDITIONAL_AGV_Cool                       :{BLACK}열차 실존여부 : {RED}가상 {}{BLACK} 도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+
+STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
+STR_REFIT_train_configuration_1F                    :{BLACK}열차구성: {GREEN}1층 승객 차량용
+STR_REFIT_train_configuration_2F                    :{BLACK}열차구성: {GREEN}2층 승객 차량용
+
+# Liveries locomotive
+
+# Errors
+STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
+STR_ERROR_NOT_ENOUGH_LENGTH6                        :열차 길이가 너무 짧습니다. 최소한 6량 이상을 연결해야 합니다.

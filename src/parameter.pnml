@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------------
+매개변수
+--------------------------------------------------------------------*/
+param {
+        High_Speed_Train_430 {
+            type: int;
+            name: string(STR_PARAM_High_SPEED_Train_430_NAME);
+            desc: string(STR_PARAM_High_SPEED_Train_430_DESC);
+            min_value: 430;
+            max_value: 597;
+            def_value: 430;
+            }
+    }

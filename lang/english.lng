@@ -2,6 +2,30 @@
 
 
 # GRF name and description
-STR_GRF_NAME_WITH_VER                            :Virtual Train Set v{VERSION}
-STR_GRF_DESC                                     :Virtual Train Set
-STR_GRF_URL                                      :https://github.com/KoreanGRF/KoreanEmptySet
+STR_GRF_NAME_WITH_VER                               :Virtual Train Set {VERSION}
+STR_GRF_DESC                                        :Virtual Train Set
+STR_GRF_URL                                         :https://github.com/KoreanGRF/KoreanEmptySet
+
+# locomotive's name
+STR_AGV_Cool_NAME                                   :[VTS] AGV Cool
+
+# wagon's name
+STR_VTS_1F_PASS_NAME                                :[VTS] 1F Passenger Car
+STR_VTS_2F_PASS_NAME                                :[VTS] 2F Passenger Car
+
+# Parameters
+STR_PARAM_High_SPEED_Train_430_NAME                 :High Speed Train Speed (430km/h train speed control)
+STR_PARAM_High_SPEED_Train_430_DESC                 :Adjust the speed of the high-speed train (Default:430km/h)
+
+# Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
+STR_REFIT_ADDITIONAL_AGV_Cool                       :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+
+STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
+STR_REFIT_train_configuration_1F                    :{BLACK}train configuration: {GREEN}1F passenger vehicles
+STR_REFIT_train_configuration_2F                    :{BLACK}train configuration: {GREEN}2F passenger vehicles
+
+# Liveries
+
+# Errors
+STR_ERROR_NO_ATTACH                                 :You can't attach this car here
+STR_ERROR_NOT_ENOUGH_LENGTH6                        :It's too short. It should be equal or more than 6 cars at least.
