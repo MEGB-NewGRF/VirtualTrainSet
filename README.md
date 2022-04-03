@@ -1,6 +1,6 @@
 # Virtual Train Set 가상열차세트
 **가상열차세트**는 가상의 열차 차량을 추가해주는 OpenTTD NewGRF입니다.  
-게임 내 온라인 콘텐츠에서 다운로드하거나, [Github release 페이지](https://github.com/KoreanGRF/KoreanTrainSet/releases)에서 다운로드할 수 있습니다.
+게임 내 온라인 콘텐츠에서 다운로드하거나, [Github release 페이지](https://github.com/GBLINER/VirtualTrainSet/releases)에서 다운로드할 수 있습니다.
 
 ## 저작권
  CC-BY-NC-SA v3.0 : 비영리조건이며, 스프라이트를 제공한 뒤엔 얼마든지 수정할 수 있습니다.<br>
