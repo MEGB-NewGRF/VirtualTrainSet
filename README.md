@@ -3,7 +3,8 @@
 게임 내 온라인 콘텐츠에서 다운로드하거나, [Github release 페이지](https://github.com/GBLINER/VirtualTrainSet/releases)에서 다운로드할 수 있습니다.
 
 ## 저작권
- CC-BY-NC-SA v3.0 : 비영리조건이며, 스프라이트를 제공한 뒤엔 얼마든지 수정할 수 있습니다.<br>
+이 NewGRF는 크리에이티브 커먼스 라이선스 v3.0 (CC-BY-NC-SA v3.0)을 따릅니다.
+이 프로젝트에 기여함은 이 라이선스에 동의함을 의미합니다.
 
 ## 컴퍼일
 makefile, [nml0.6.1](https://github.com/OpenTTD/nml) 등의 최신버전을 사용합니다.<br>
