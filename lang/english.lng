@@ -9,26 +9,67 @@ STR_GRF_URL                                         :https://github.com/KoreanGR
 # locomotive's name
 STR_AGV_Cool_NAME                                   :[VTS] AGV Cool
 STR_BB15000_NAME                                    :[VTS] BB15000
+STR_HYEL_100_NAME                                   :[VTS] HYEL-100
+STR_HYEL_200_NAME                                   :[VTS] HYEL-200
+STR_TGV_Pos_Poste_NAME                              :[VTS] TGV Pos Poste
+STR_VTX_NAME                                        :[VTS] VTX
+STR_YFX_NAME                                        :[VTS] YFX
 
 # wagon's name
 STR_VTS_1F_PASS_NAME                                :[VTS] 1F Passenger Car
 STR_VTS_2F_PASS_NAME                                :[VTS] 2F Passenger Car
+STR_Coach_2F_NAME                                   :[VTS] Coach 2F Passenger Car
+STR_Coach_2F_Last_NAME                              :[VTS] Coach Last 2F Passenger Car
+STR_TGV_Poste_wagon_NAME                            :[VTS] TGV Poste Freight Car
+STR_YFXF_NAME                                       :[YST] YFX Freight Car
 
 # Parameters
 STR_PARAM_Regular_SPEED_Train_NAME                  :Regular Train Speed Variable
 STR_PARAM_Regular_SPEED_Train_DESC                  :Adjust the speed of the Regular-speed train (Default:151km/h)
+STR_PARAM_High_SPEED_Train_NAME                     :High Speed Train Speed
+STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the high-speed train (Default:331km/h)
 STR_PARAM_High_SPEED_Train_430_NAME                 :High Speed Train Speed (430km/h train speed control)
 STR_PARAM_High_SPEED_Train_430_DESC                 :Adjust the speed of the high-speed train (Default:430km/h)
 
 # Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
 STR_REFIT_ADDITIONAL_AGV_Cool                       :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
-STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}BB15000
+STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}BB15000, HYEL-100
+STR_REFIT_ADDITIONAL_HYEL_100                       :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}BB15000, HYEL-100
+STR_REFIT_ADDITIONAL_HYEL_200                       :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}HYEL-200
+STR_REFIT_ADDITIONAL_TGV_Pos_Poste                  :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV Pos Poste
+STR_REFIT_ADDITIONAL_VTX                            :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}VTX
+STR_REFIT_ADDITIONAL_YFX                            :{BLACK}Existence of trains : {RED}Virtual Train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}YFX
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration_1F                    :{BLACK}train configuration: {GREEN}1F passenger vehicles
 STR_REFIT_train_configuration_2F                    :{BLACK}train configuration: {GREEN}2F passenger vehicles
+STR_REFIT_train_configuration_Coach                 :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
+STR_REFIT_train_configuration_Coach_Last            :{BLACK}train configuration: {GREEN}Coach 2F Passenger vehicles
+STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV Pos Poste
+STR_REFIT_train_configuration_YFX_Freight           :{BLACK}train configuration: {GREEN}YFX Freight Car
 
 # Liveries
+STR_REFIT_LIVERY_HYEL_100_SRT                       :(SRT)
+STR_REFIT_LIVERY_HYEL_100_CJ                        :(CJ Logistics)
+STR_REFIT_LIVERY_HYEL_100_poste                     :(Poste mail)
+STR_REFIT_LIVERY_HYEL_100_fedex                     :(Fedex)
+STR_REFIT_LIVERY_HYEL_100_SanCheon                  :(SanCheon)
+STR_REFIT_LIVERY_HYEL_100_Hanjin                    :(Hanjin Logistics)
+STR_REFIT_LIVERY_HYEL_100_logen                     :(logen Logistics)
+STR_REFIT_LIVERY_HYEL_100_lotte                     :(lotte Logistics)
+STR_REFIT_LIVERY_HYEL_100_DHL                       :(DHL)
+STR_REFIT_LIVERY_HYEL_100_Yellowcap                 :(Yellowcap)
+STR_REFIT_LIVERY_HYEL_100_Daesin                    :(Daesin Logistics)
+STR_REFIT_LIVERY_HYEL_100_Ilyang                    :(Ilyang Logistics)
+STR_REFIT_LIVERY_HYEL_100_Korail                    :(Korail)
+STR_REFIT_LIVERY_HYEL_100_Ironman                   :(Ironman)
+STR_REFIT_LIVERY_HYEL_100_K_Limousine               :(K Limousine)
+
+# Liveries wagon
+STR_REFIT_LIVERY_Coach_2F_BR                        :(Default Color)
+STR_REFIT_LIVERY_Coach_2F_Taegeuk                   :(Taegeuk Color)
+STR_REFIT_LIVERY_Coach_2F_SR                        :(SR Color)
+STR_REFIT_LIVERY_Coach_2F_K_Limousion               :(K Limousion Color)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here

@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Coach_2F_Last_Wagon_purchase, "src\wagon\Coach_2F_Last_wagon\Coach_2F_Last_wagon.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+spriteset(set_Coach_2F_Last_Wagon, "src\wagon\Coach_2F_Last_wagon\Coach_2F_Last_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Coach_2F_Last_Wagon_purchase, cargo_subtype) {
+    set_Coach_2F_Last_Wagon_purchase;
+}

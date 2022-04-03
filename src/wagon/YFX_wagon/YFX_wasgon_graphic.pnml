@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_YFXF_purchase, "src\wagon\YFX_wagon\YFX_wagon.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+alternative_sprites(set_YFXF_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png"){
+    tmpl_wagon_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. YFX
+--------------------------------------------------------------------*/
+
+spriteset(set_YFX_empty_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_01_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_02_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_03_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+spriteset(set_YFX_loaded_04_wagon, "src\wagon\YFX_wagon\YFX_wagon.png") {
+    wagon_1F_F(80, 0)
+}
+
+/*--------------------------------------------------------------------
+1-1. YFX 32bpp
+--------------------------------------------------------------------*/
+
+alternative_sprites(set_YFX_empty_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    wagon_1F_F(80, 0)
+}
+
+alternative_sprites(set_YFX_loaded_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 27)
+}
+
+alternative_sprites(set_YFX_loaded_01_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 54)
+}
+
+alternative_sprites(set_YFX_loaded_02_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 81)
+}
+
+alternative_sprites(set_YFX_loaded_03_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 108)
+}
+
+alternative_sprites(set_YFX_loaded_04_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src\wagon\YFX_wagon\YFX_wagon_32bpp.png") {
+    YFX_loaded_wagon_1F_F(80, 135)
+}
+
+/*--------------------------------------------------------------------
+적재 스위치
+--------------------------------------------------------------------*/
+spritegroup sg_YFX_wagon_01 {
+    loading: [
+        set_YFX_loaded_wagon,
+        set_YFX_loaded_01_wagon,
+    ];
+    loaded: [
+        set_YFX_empty_wagon
+    ];
+}
+
+spritegroup sg_YFX_wagon_02 {
+    loading: [
+        set_YFX_loaded_wagon,
+        set_YFX_loaded_02_wagon,
+    ];
+    loaded: [
+        set_YFX_empty_wagon
+    ];
+}
+
+spritegroup sg_YFX_wagon_03 {
+    loading: [
+        set_YFX_loaded_wagon,
+        set_YFX_loaded_03_wagon,
+    ];
+    loaded: [
+        set_YFX_empty_wagon
+    ];
+}
+
+spritegroup sg_YFX_wagon_04 {
+    loading: [
+        set_YFX_loaded_wagon,
+        set_YFX_loaded_04_wagon,
+    ];
+    loaded: [
+        set_YFX_empty_wagon
+    ];
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_YFXF_purchase, cargo_subtype) {
+    set_YFXF_purchase;
+}

@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_VTX_purchase, "src/locomotive/VTX/VTX.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_VTXH_purchase, "src/locomotive/VTX/VTX.png"){
+    tmpl_purchase_for_dualhead(0, 54)
+}
+
+spriteset(set_VTX_engineH, "src/locomotive/VTX/VTX.png"){
+    engine(80, 0)
+}
+
+spriteset(set_VTX_wagon, "src/locomotive/VTX/VTX.png") {
+    wagon_1F(80, 27)
+}
+
+spriteset(set_VTX_wagon_r, "src/locomotive/VTX/VTX.png") {
+    wagon_1F_r(80, 27)
+}
+
+spriteset(set_VTX_engineT, "src/locomotive/VTX/VTX.png"){
+    engine_r(80, 54)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_VTX_purchase, cargo_subtype) {
+    set_VTX_purchase;
+}

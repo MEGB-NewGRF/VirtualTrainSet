@@ -3,5 +3,7 @@
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_BB15000_wagon_attach, vehicle_type_id) {
     BB15000:                             return CB_RESULT_ATTACH_ALLOW;
+    HYEL_100:                            return CB_RESULT_ATTACH_ALLOW;
+    Coach_2F:                            return CB_RESULT_ATTACH_ALLOW;
     return string(STR_ERROR_NO_ATTACH);
 }
