@@ -2,7 +2,6 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_Coach_2F_Last_wagon_attach, vehicle_type_id) {
-    BB15000:    return CB_RESULT_ATTACH_ALLOW;
     HYEL_100:   return CB_RESULT_ATTACH_ALLOW;
    return string(STR_ERROR_NO_ATTACH);
 }

@@ -16,7 +16,6 @@ switch(FEAT_TRAINS, SELF, sw_Coach_2F_Wagon, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_Coach_2F_Wagon_attach, vehicle_type_id) {
-    BB15000:    return CB_RESULT_ATTACH_ALLOW;
     HYEL_100:   return CB_RESULT_ATTACH_ALLOW;
    return string(STR_ERROR_NO_ATTACH);
 }
