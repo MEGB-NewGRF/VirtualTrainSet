@@ -54,6 +54,8 @@ STR_REFIT_LIVERY_HYEL_100_Ilyang                    :(일양 택배)
 STR_REFIT_LIVERY_HYEL_100_Korail                    :(코레일)
 STR_REFIT_LIVERY_HYEL_100_Ironman                   :(아이언맨)
 STR_REFIT_LIVERY_HYEL_100_K_Limousine               :(K 리무진)
+STR_REFIT_LIVERY_YFX_wagon_original                 :(기본 윙바디 화물칸)
+STR_REFIT_LIVERY_YFX_wagon_post                     :(우체국소포 윙바디 화물칸)
 
 # Liveries wagon
 STR_REFIT_LIVERY_Coach_2F_BR                        :(기본 도색)
