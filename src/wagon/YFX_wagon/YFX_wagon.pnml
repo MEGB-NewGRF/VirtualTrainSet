@@ -2,7 +2,7 @@
 YFX
 --------------------------------------------------------------------*/
 // Graphics
-#include "YFX_wasgon_graphic.pnml"
+#include "YFX_wagon_graphic.pnml"
 
 // Switch
 #include "YFX_wagon_switch.pnml"

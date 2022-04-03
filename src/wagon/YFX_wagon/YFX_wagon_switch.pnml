@@ -12,7 +12,7 @@ switch(FEAT_TRAINS, SELF, sw_YFX_wagon_subtype_text, cargo_subtype) {
 
 // Graphic
 
-switch(FEAT_TRAINS, SELF, sw_YFX_wagon, random_bits % 4) {
+switch(FEAT_TRAINS, SELF, sw_YFX_wagon_cargotype, random_bits % 4) {
      1: sg_YFX_wagon_01;
      2: sg_YFX_wagon_02;
      3: sg_YFX_wagon_03;
@@ -26,6 +26,11 @@ switch(FEAT_TRAINS, SELF, sw_YFX_wagon_post, random_bits % 4) {
      3: sg_YFX_wagon_03_post;
      4: sg_YFX_wagon_04_post;
      set_YFX_empty_wagon_post;
+}
+
+switch(FEAT_TRAINS, SELF, sw_YFX_wagon, cargo_subtype) {
+    1: sw_YFX_wagon_post;             // 우체국
+    sw_YFX_wagon_cargotype;
 }
 
 switch(FEAT_TRAINS, SELF, sw_YFXF_wagon_attach, vehicle_type_id) {
