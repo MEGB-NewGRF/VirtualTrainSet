@@ -1,4 +1,4 @@
-# OpenTTD Virtual Train Set 자료실입니다.
+# OpenTTD Virtual Train Set 가상열차세트 자료실입니다.
 ## 저작권
  CC-BY-NC-SA v3.0 : 비영리조건이며, 스프라이트를 제공한 뒤엔 얼마든지 수정할 수 있습니다.<br>
 
@@ -9,8 +9,13 @@ makefile, [nml0.6.1](https://github.com/OpenTTD/nml) 등의 최신버전을 사�
 저작권 특성상 자유로운 변경공개이므로, 이미 공개된 자료에 대해선 얼마든지 수정하실 수 있습니다.<br>
 
 ## 자료공개
+
 공식 : 최종본이 완성되면 공개합니다. 공개버전은 매달 첫번째 토요일 0:00 이후에 등록하는 것으로 하겠습니다.<br>
-베타 : 베타 버전은 Pre-relesase이며, 다음 토요일 날에 공개될 자료를 업로드해두는 곳입니다. 공식 릴리즈보다는 앞서 만나볼 수 있으며, 테스트의 목적와 선공개의 목적으로 공개됩니다. <br>
+
+
+베타 : 베타 버전은 Pre-relesase이며, 코딩이 완료된 자료를 업로드합니다. 공식 릴리즈보다는 앞서 만나볼 수 있으며, 테스트의 목적와 선공개의 목적으로 공개됩니다.
+
+
 공개일 : 매달 첫번째 토요일에 공개됩니다.
 
 ## 자료제공
@@ -19,6 +24,6 @@ makefile, [nml0.6.1](https://github.com/OpenTTD/nml) 등의 최신버전을 사�
 ## 커뮤니티
 [![디스코드로고](https://github.com/evepoi/YST/blob/minengallery/docs/img/discord_logo.png)](https://discord.gg/WNrjUatFkz)
 
-# YST Set 열차 목록
+# Virtual Train Set 열차 목록
 ## 개요
 
