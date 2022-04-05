@@ -56,6 +56,7 @@ STR_REFIT_LIVERY_HYEL_100_Ironman                   :(Ironman)
 STR_REFIT_LIVERY_HYEL_100_K_Limousine               :(K Limousine)
 STR_REFIT_LIVERY_YFX_wagon_original                 :(Wingbody Freight)
 STR_REFIT_LIVERY_YFX_wagon_post                     :(Post Wingbody Freight)
+STR_REFIT_LIVERY_YFX_wagon_CJ_Logistics             :(CJ Logistics Wingbody Freight)
 
 # Liveries wagon
 STR_REFIT_LIVERY_Coach_2F_BR                        :(Default Color)
