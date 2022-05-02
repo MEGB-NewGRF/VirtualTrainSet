@@ -17,9 +17,6 @@
 
 베타 버전 : 베타 버전은 Pre-relesase이며, 코딩이 완료된 자료를 업로드합니다. 공식 릴리즈보다는 앞서 만나볼 수 있으며, 테스트의 목적와 선공개의 목적으로 공개됩니다.
 
-## 커뮤니티
-[![디스코드로고](https://github.com/evepoi/YST/blob/minengallery/docs/img/discord_logo.png)](https://discord.gg/WNrjUatFkz)
-
 ## 자료제공
 본 가상열차세트는 YST에서 분리된 GRF로 일부 스프라이트는 YST에서 제작되었습니다.
 - [YST](https://github.com/evepoi/YST)
