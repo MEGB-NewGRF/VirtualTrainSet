@@ -1,41 +1,39 @@
 /*--------------------------------------------------------------------
-GT26CW
+CRH380A
 --------------------------------------------------------------------*/
 // Graphics
-#include "HYEL_200_graphic.pnml"
+#include "CRH430A_graphic.pnml"
 
 // Switch
-#include "HYEL_200_switch.pnml"
+#include "CRH430A_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, HYEL_200, 1085){
+item(FEAT_TRAINS, CRH430A, 9998){
     property {
-        name:                           string(STR_HYEL_200_NAME);
+        name:                           string(STR_CRH430A_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2035, 1, 1);
-        track_type:                     RAIL;
-        engine_class:                   ENGINE_CLASS_DIESEL;
+        introduction_date:              date(2020, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         dual_headed:                    1;
         
         //spec
-        speed:                          181km/h;
+        speed:                          430km/h;
         power:                          8000 kW;
-        weight:                         30 ton;
+        weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
-        visual_effect_and_powered:      VISUAL_EFFECT_DISABLE;
         vehicle_life:                   30;
         retire_early:                   0;
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 70;
+        cargo_capacity:                 46;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -46,25 +44,26 @@ item(FEAT_TRAINS, HYEL_200, 1085){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP,TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
         extra_weight_per_wagon:         35 ton;
         }
         
     graphics {
-        default:                        sw_HYEL_200_engine;
-        purchase:                       sw_HYEL_200_purchase;
-        speed:                          Regular_Speed_Train;
+        default:                        sw_CRH430A_engine;
+        purchase:                       sw_CRH430A_purchase;
+        speed:                          High_Speed_Train_430;
+        loading_speed:                  25;
         cost_factor:                    10;
+        running_cost_factor:            150;
+        can_attach_wagon:               sw_CRH430A_wagon_attach;
+        start_stop:                     sw_YST_train_start_stop_6;
+        additional_text:                string(STR_REFIT_ADDITIONAL_CRH430A);
+        }
+        
+    livery_override(VTS_1F_Passenger_Car) {
+        default:                        sw_CRH430A_wagon;
+        cargo_capacity:                 85;
         loading_speed:                  25;
         running_cost_factor:            150;
-        can_attach_wagon:               sw_HYEL_200_wagon_attach;
-        additional_text:                string(STR_REFIT_ADDITIONAL_HYEL_200);
-        }
-
-    livery_override(VTS_2F_Passenger_Car) {
-        default:                        sw_HYEL_200_wagon;
-        cargo_capacity:                 140;
-        loading_speed:                  25;
-        running_cost_factor:            100;
         }
         }

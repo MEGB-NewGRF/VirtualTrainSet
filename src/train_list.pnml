@@ -2,11 +2,18 @@
 #include "wagon/passenger_wagon/passenger_wagon.pnml"
 #include "wagon/Coach_2F_wagon/Coach_2F_wagon.pnml"
 #include "wagon/Coach_2F_Last_wagon/Coach_2F_Last_wagon.pnml"
+#include "wagon/TGV_Poste_wagon/TGV_Poste_wagon.pnml"
 #include "wagon/YFX_wagon/YFX_wagon.pnml"
 
 //locomotive
+#include "locomotive/AGV_Cool/AGV_Cool.pnml"
+#include "locomotive/CRH430A/CRH430A.pnml"
+#include "locomotive/CRH430D/CRH430D.pnml"
+#include "locomotive/CRH600D/CRH600D.pnml"
 #include "locomotive/HYEL/HYEL_100/HYEL_100.pnml"
 #include "locomotive/HYEL/HYEL_200/HYEL_200.pnml"
+#include "locomotive/Shinkansen_500_Cool/Shinkansen_500_Cool.pnml"
+#include "locomotive/TGV_Pos_Poste/TGV_Pos_Poste.pnml"
 #include "locomotive/YFX/YFX.pnml"
 
 // Sorting

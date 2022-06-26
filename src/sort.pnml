@@ -2,13 +2,20 @@
 정렬
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
+    AGV_Cool,                  //9999
+    CRH430A,                   //9998
+    CRH430D,                   //9997
+    CRH600D,                   //9996
     HYEL_100,                  //1084
     HYEL_200,                  //1085
+    Shinkansen_500_Cool,       //9995
+    TGV_Pos_Poste,             //9994
     YFX,                       //1088
 
     VTS_1F_Passenger_Car,      //1076
     VTS_2F_Passenger_Car,      //1077
     Coach_2F,                  //1078
     Coach_2F_Last,             //1079
+    TGV_Poste_wagon,           //9993
     YFXF,                      //1081
     ]);

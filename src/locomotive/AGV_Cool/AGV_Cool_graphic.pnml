@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_AGV_Cool_purchase, "src/locomotive/AGV_Cool/AGV_Cool.png"){
+    tmpl_purchase(0, 0)
+}
+
+spriteset(set_AGV_CoolH_purchase, "src/locomotive/AGV_Cool/AGV_Cool.png"){
+    tmpl_purchase_for_dualhead(0, 108)
+}
+
+spriteset(set_AGV_Cool_engineH, "src/locomotive/AGV_Cool/AGV_Cool.png"){
+    engine(80, 0)
+}
+
+spriteset(set_AGV_Cool_wagon_start, "src/locomotive/AGV_Cool/AGV_Cool.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_AGV_Cool_wagon, "src/locomotive/AGV_Cool/AGV_Cool.png") {
+    wagon_1F(80, 54)
+}
+
+spriteset(set_AGV_Cool_wagon_r, "src/locomotive/AGV_Cool/AGV_Cool.png") {
+    wagon_1F_r(80, 54)
+}
+
+spriteset(set_AGV_Cool_wagon_end, "src/locomotive/AGV_Cool/AGV_Cool.png"){
+    wagon_start(80, 81)
+}
+
+spriteset(set_AGV_Cool_engineT, "src/locomotive/AGV_Cool/AGV_Cool.png"){
+    engine_r(80, 108)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_AGV_Cool_purchase, cargo_subtype) {
+    set_AGV_Cool_purchase;
+}
